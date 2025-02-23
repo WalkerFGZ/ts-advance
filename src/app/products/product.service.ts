@@ -5,3 +5,15 @@ export const products: Product[] = [];
 export const addProduct = (product: Product) => {
   products.push(product);
 };
+
+export const updateProduct = (id: string, changes: Product) => {
+  // TODO
+};
+
+export const deleteProduct = (id: string) => {
+  // TODO
+};
+
+export const getProduct = (id: string) => {
+  // TODO
+};
