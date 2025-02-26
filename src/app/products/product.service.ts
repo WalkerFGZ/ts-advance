@@ -49,5 +49,6 @@ export const getProduct = (id: string) => {
 };
 
 export const findProducts = (dto: FindProductDto): Product[] => {
+  // dto.tags?.pop();
   return products;
 };
